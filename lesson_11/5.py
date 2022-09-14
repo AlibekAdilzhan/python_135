@@ -1,0 +1,5 @@
+s = input()
+s = list(set(s))
+s.sort()
+s = " ".join(s)
+print(s)

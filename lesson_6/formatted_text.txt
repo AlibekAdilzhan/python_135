@@ -1,0 +1,1 @@
+To solve the problem, we will need some definitions. Let (\alpha_1,…,\alpha_k;\beta_1,…,\beta_l ) be a configuration, then define

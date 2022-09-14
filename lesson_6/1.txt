@@ -1,0 +1,1 @@
+x_{\alpha_1}x_{\alpha_2}…x_{\alpha_k}y_{\beta_1}y_{\beta_2}…y_{\beta_l}

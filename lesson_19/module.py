@@ -1,2 +1,8 @@
-def reverse_string(s):
-    return s[::-1]
+def detroid(s):
+    d = {}
+    for x in s:
+        a = s.count(x)
+        d[x] = a
+
+    # print(d)
+    return d

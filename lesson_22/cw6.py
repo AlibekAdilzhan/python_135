@@ -9,6 +9,10 @@ def rename_folder(old_name, new_name):
     os.rename(old_name, new_name)
 
 
+def delete_folder(folder_name):
+    os.rmdir(folder_name)
+
+
 run = True
 
 while run:
@@ -29,6 +33,10 @@ while run:
         old_name = input("Enter the folder name you want to change: ")
         new_name = input("Enter new name: ")
         rename_folder(old_name, new_name)
+
+    elif answer == "3":
+        folder_name = input("Enter the folder name you want to remove: ")
+        delete_folder(folder_name)
 
     elif answer == "4":
         run = False
